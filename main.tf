@@ -3,7 +3,7 @@
 data "aws_vpc" "default" {
   default = true
 }
-
+//Just commenting
 resource "aws_security_group" "web_sg" {
   name        = "web_sg"
   description = "Allow all inbound HTTP traffic"
