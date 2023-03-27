@@ -24,7 +24,7 @@ resource "aws_security_group" "web_sg" {
   }
 }
 
-
+//hi
 resource "aws_instance" "my-instance" {
   ami                    = var.AMIS[var.region]
   instance_type          = var.instance_type
